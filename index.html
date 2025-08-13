@@ -19,6 +19,10 @@
                 <div class="full-logo">
                     <img src="img/full-logo.png" alt="logo full de hostinger">
                 </div>
+
+                <div class="hambur">
+                    <i class="bi bi-list"></i>
+                </div>
             
                 <ul class="menu">
                     <li>
@@ -223,6 +227,12 @@
     </div>
 
 </footer>
-
+<script>
+    const toggle = document.querySelector('.menu-hambur');
+    const menu = document.querySelector('.menu');
+    toggle.addEventListener('click', () => {
+        menu.classList.toggle('activo');
+    });
+</script>
 </body>
 </html>

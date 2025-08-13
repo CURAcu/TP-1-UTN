@@ -344,3 +344,86 @@ body{
 .pie2 p{
     margin: 0;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .cabezal{
+        flex-wrap: wrap;
+        padding: 10px 20px;
+    }
+
+    .menu{
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        background-color: white;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .hambur{
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .menu.activo{
+        display: flex;
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .h-contenido{
+        order: 2;
+    }
+
+    .h-imagen{
+        order: 1;
+        width: 100%;
+    }
+
+    .h-titulo{
+        font-size: 28px;
+    }
+
+    .h-precio span{
+        font-size: 28px;
+    }
+
+    .m-contenido2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pie{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .pie1{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .pie-der{
+        align-items: center;
+        padding: 0;
+    }
+
+    .pagos img{
+        height: 20px;
+    }
+}
