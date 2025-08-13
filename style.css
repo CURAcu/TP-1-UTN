@@ -1,0 +1,346 @@
+/*                     HEADER                      */
+
+body{
+    margin: 0;
+    font-family: inherit;
+    font-size: 16px
+}
+
+.cabezal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 4px 33px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.cab-izquierda{
+    display: flex;
+    align-items: center;
+}
+
+.full-logo img{
+    height: 80px;
+    cursor: pointer;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 9px;
+}
+
+.menu-lista{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.cab-derecha{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 700;
+    padding: 0px 20px;
+}
+
+.idioma{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.idioma img{
+    height: 20px;
+    cursor: pointer;
+}
+
+.espanol{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.micuenta{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 13px 14px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+
+/*                      HERO                       */
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    background-color: white;
+    gap: 40px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+}
+
+.h-contenido{
+    flex: 3;
+}
+
+.h-titulo{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.h-texto{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bi-check-lg{
+    font-size: 20px;
+    color: #00b090;
+}
+
+.h-texto span{
+    font-size: 19px;
+    color: #683ee6;
+    font-weight: 900;
+}
+
+.h-precio span{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.h-meses{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.h-empezar{
+    background-color: #683ee6;
+    color: white;
+    border: none;
+    padding: 14px 50px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.h-conteo{
+    background-color: #E2E0FFFF;
+    color: black;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.h-garantia{
+    font-size: 14px;
+}
+
+.h-imagen{
+    display: flex;
+    justify-content: center;
+    flex: 7;
+}
+
+.h-imagen img{
+    width: 80%;
+    height: auto;
+}
+
+
+
+/*                    MIGRACION                    */
+
+
+.migracion{
+    background-color: #1e1345;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.m-titulo{
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.m-contenido p{
+    font-size: 16px;
+    max-width: 75%;
+    margin: 0 auto 50px auto;
+}
+
+.m-contenido2{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.m-sobre{
+    background-color: #301c6b;
+    border-radius: 15px;
+    padding: 30px 40px;
+    width: 300px;
+    text-align:left;
+}
+
+.bi-list-ul, .bi-lightning-charge, .bi-check-circle{
+    font-size: 22px;
+    background-color: #683ee6;
+    border-radius: 8px;
+    color: white;
+    padding: 6px 10px;
+}
+
+.m-sobre h3{
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.m-sobre p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.m-empezar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.m-empezar2{
+    background-color: #683ee6;
+    color: white;
+    border: none;
+    padding: 12px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+/*                     FOOTER                      */
+
+
+.pie{
+    background-color: #f5f4ff;
+    font-family: 'DM Sans', sans-serif;
+    color: #2d1e6b;
+    padding: 0px 150px;
+    font-size: 14px;
+}
+
+.pie1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.pie-izq{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-pie{
+    height: 100px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.pagos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.pagos img{
+    height: 28px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 4px;
+    background: white;
+}
+
+.pagos a{
+    color: #673de6;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.pie-der{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+    padding: 40px;
+}
+
+.redes{
+    display: flex;
+    gap: 12px;
+}
+
+.redes a{
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.nose{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.nose a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pie2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #5a4e91;
+}
+
+.pie2 p{
+    margin: 0;
+}
